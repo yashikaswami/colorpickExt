@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.popup{
+    width: 350px ;
+}
+
+.popup :where(.picker, header){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popup .picker{
+    background: #76d5fa;
+padding: 30px;
+display: flex;
+align-items: center;
+justify-content: center;}
+
+.picker #color-picker{
+    outline: none;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 255, 0.555);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.picked-colors{
+    margin: 10px 15px;
+}
+
+.picked-colors .title{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.picked-colors .clear-all{
+    color: white;
+    padding: 3px 5px;
+    border-radius: 5px;
+    background-color: rgba(41, 41, 253, 0.849);
+    cursor: pointer;
+}
+
+.all-colors{
+    margin: 20px 0;
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.all-colors .color{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style-type: none;
+    cursor: pointer;
+    margin-bottom: 5px;;
+    
+}
+.all-colors .color .rect{
+    display: block;
+    height: 22px;
+    width: 22px;
+    border-radius: 5px;
+    background-color: rgba(41, 41, 253, 0.849);
+}
+
+.all-colors .color .value{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+
+.picked-colors.hide{
+    display: none;
+}
