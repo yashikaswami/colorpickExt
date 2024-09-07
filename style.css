@@ -94,3 +94,65 @@ justify-content: center;}
 .picked-colors.hide{
     display: none;
 }
+
+
+
+
+
+
+
+.download-section {
+    background-color: #f9f9f9; /* Light background for the entire section */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.download-section p {
+    font-size: 18px;
+    color: #333;
+}
+
+.download-btn {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff; /* Blue background for the button */
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); /* Shadow for the button */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 10px;
+}
+
+.download-btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+}
+
+.install-steps {
+    margin-top: 30px;
+}
+
+.install-steps p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.install-steps ol {
+    margin-left: 20px;
+}
+
+.install-steps li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+    line-height: 1.5;
+}
